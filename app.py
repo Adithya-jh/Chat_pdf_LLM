@@ -29,7 +29,7 @@ def main():
     # load_dotenv()
     st.set_page_config(page_title="Chat with the PDFs" , page_icon = ":books:")
     st.header("Chat with the PDFs :books:")
-    st.text_input("Ask a qustion about your documents: ")
+    st.text_input("Ask a qustion about your document: ")
 
     with st.sidebar:
         st.subheader("Your Docs")
